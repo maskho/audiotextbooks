@@ -1,22 +1,22 @@
-siteName: Mathigon
-description: A interactive textbook
-domain: mathigon.org
+siteName: Madras
+description: A magical textbook
+domain: madras.id
 
 privacyURL: /policies
-banner: (c) Mathigon
+banner: (c) Madras
 locales: [en, ar, cn, de, es, fr, hi, hr, it, ja, pt, ro, ru, sv, tr, vi]
 
 search:
-  enabled: false
+  enabled: true
 
 footer:
   rows:
     - links:
         - title: GitHub
-          url: https://github.com/mathigon/textbooks
+          url: https://github.com/maskho/audiotextbooks
         - title: Live Website
-          url: https://mathigon.org/courses
-  copyright: © Mathigon, 2022
+          url: https://madras.id/
+  copyright: © Madras, 2022
 
 social:
   facebook: {}
@@ -25,7 +25,7 @@ social:
 courses:
   showLocked: true
   revealAll: false
-  audio: false
+  audio: true
 
 tutor:
   enabled: true
