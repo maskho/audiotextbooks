@@ -26,10 +26,20 @@ nbproject
 .vscode
 
 # Node and TypeScript Files
-node_modules/
+node_modules/*
 *.tsbuildinfo
 .npm
 .eslintcache
+
+node_modules/@mathigon/boost
+node_modules/@mathigon/core
+node_modules/@mathigon/euclid
+node_modules/@mathigon/fermat
+node_modules/@mathigon/hilbert
+node_modules/@mathigon/studio/node_modules
+
+#Exclude Node Files
+!node_modules/@mathigon/
 
 # Build and Test Outputs
 public
