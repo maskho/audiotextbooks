@@ -7,7 +7,7 @@ banner: (c) Madras
 locales: [en, ar, cn, de, es, fr, hi, hr, it, ja, pt, ro, ru, sv, tr, vi]
 
 search:
-  enabled: true
+  enabled: false
 
 footer:
   rows:
