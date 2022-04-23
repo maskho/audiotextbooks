@@ -1,8 +1,8 @@
 {
-  "name": "@mathigon/textbooks",
+  "name": "audiotextbooks",
   "version": "0.7.3",
-  "description": "Mathigon Textbooks",
-  "homepage": "https://mathigon.org/",
+  "description": "Madras Audio-Textbooks",
+  "homepage": "https://madras.id/",
   "repository": "mathigon/textbooks",
   "license": "UNLICENSED",
   "private": true,
