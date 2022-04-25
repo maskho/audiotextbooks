@@ -13,7 +13,12 @@
     "start": "npm-run-all --parallel watch server",
     "translate": "mgon-build --translate --key google-service-account.json",
     "lint": "eslint content --ext .ts",
-    "lint-fix": "eslint content --ext .ts --fix"
+    "lint-fix": "eslint content --ext .ts --fix",
+    "build": "mgon-build --assets --minify --search",
+    "clean": "rm -rf public",
+    "dev": "npm-run-all --parallel watch start-dev",
+    "thumbnails": "mgon-build --thumbnails",
+    "screenshots": "mgon-screenshots --output screenshots"
   },
   "engines": {
     "node": ">=14"
