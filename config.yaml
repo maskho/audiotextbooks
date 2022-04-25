@@ -12,10 +12,10 @@ search:
 footer:
   rows:
     - links:
-        - title: GitHub
-          url: https://github.com/maskho/audiotextbooks
-        - title: Live Website
-          url: https://madras.id/
+        - title: Follow us on Instagram
+          url: https://www.instagram.com/madras.id/
+        - title: Give us your suggestion
+          url: https://forms.gle/maUSfWPWCmgoz5RM9
   copyright: © Madras, 2022
 
 social:
@@ -29,3 +29,26 @@ courses:
 
 tutor:
   enabled: true
+
+accounts:
+  enabled: true
+
+  # Minimum age allowed for users
+  minAge: 11
+
+  # Required privacy information
+  privacyPolicy: https://madras.id/policies
+  termsOfUse: https://madras.id/terms
+  address: Jalan Asem Kranji, Depok, Sleman, D.I. Yogyakarta
+
+  # Support email that users can contact
+  supportEmail: halo@madras.id
+
+  # Email address that receives CRON job notification emails (optional)
+  cronNotificationsEmail: halo@madras.id
+
+  # Sendgrid API key. Should use place holder
+  sendgridKey: 12345 //
+
+  # MongoDB URL (optional). Should use place holder
+  mongodb: mongodb+srv://madras:YJXbvfFRzIk5Vpfk@clustermadras0.z11yf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
