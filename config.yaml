@@ -1,10 +1,10 @@
 siteName: Madras
 description: A magical textbook
-domain: madras.id
+domain: localhost:5000
 
 privacyURL: /policies
 banner: (c) Madras
-locales: [en, ar, cn, de, es, fr, hi, hr, it, ja, pt, ro, ru, sv, tr, vi]
+locales: [en]
 
 search:
   enabled: false
