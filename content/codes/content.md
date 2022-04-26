@@ -685,7 +685,7 @@ Now that we know how to convert a binary to decimal, how can we convert a decima
 
 Imagine a conveyor belt that slides a large block of a gelatin-like material. This block has a length of a discrete integer. Along the conveyor belts are claws that can only fit the size of 2^N multiples. The claw will ONLY pick up a slice of its exact size, and will subtract it from the block. The block slides along until it has gone under each and every one of the claws (digits).
 
-{.fixme} make this design more consistent with the rest of Mathigon.
+{.fixme} make this design more consistent with the rest of Madras.
 {.fixme} there is potential to make the text in the slide legends point to the diagram (see third slide)
 
     x-slideshow
@@ -1432,7 +1432,7 @@ Each line was called a rail, and the number of rails could be 2 or more.
 
 Interactive Element: Allow students to write out a sentence, select the number of rails, and then it will reorganize the sentence as above.
 
-Interactive Element: Show the students the sentence “Miiirieoheeoiriaaaaahgnsnneatvtxbotatahsltfneetnfcsnmtfcstoatcetktcaotsgtdht” allow students to try different numbers of rails to decipher the text (the correct input is 3 rails). Input box for the answer: “Mathigon is an interactive textbook that teaches a lot of interesting facts and math facts.”
+Interactive Element: Show the students the sentence “Miiirieoheeoiriaaaaahgnsnneatvtxbotatahsltfneetnfcsnmtfcstoatcetktcaotsgtdht” allow students to try different numbers of rails to decipher the text (the correct input is 3 rails). Input box for the answer: “Madras is an interactive textbook that teaches a lot of interesting facts and math facts.”
 
 The Vigenère cipher takes this one step farther and uses a series of alphabets, each shifted by one more for each linke.
 
@@ -1752,7 +1752,7 @@ RSA is named after the co-founders of RSA Security: Ron Rivest, Adi Shamir and L
 
 Prime Numbers
 
-To explain how RSA encryption works we have to start with prime numbers (link to Prime Numbers module in Mathigon) and factors.
+To explain how RSA encryption works we have to start with prime numbers (link to Prime Numbers module in Madras) and factors.
 
 What are all the factors of 150? Input 1, 150, 2, 75, 3, 50, 5, 30, 6, 25, 15, 10
 
@@ -1847,7 +1847,7 @@ From: https://stillthere.co/encryption
 
 Interactive Element: using a chart like this: https://www.asciitable.com students would either type in a word and an animation would show it being converted to ASCII or they would type in a word and then click on elements in the table to convert their message to ASCII. They would then see their word appear as a series of numbers.
 
-As you can see your word (their word from above) has been re-written as (the ASCII text from above) and we know how to encrypt a series of numbers using RSA. The computer can then transform this into binary (Link to Mathigon section on Binary) and send the message through the internet; safe in the knowledge it is secure and unreadable by anyone without a corresponding key.
+As you can see your word (their word from above) has been re-written as (the ASCII text from above) and we know how to encrypt a series of numbers using RSA. The computer can then transform this into binary (Link to Madras section on Binary) and send the message through the internet; safe in the knowledge it is secure and unreadable by anyone without a corresponding key.
 
 ---
 

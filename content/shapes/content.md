@@ -464,7 +464,7 @@ The perimeter of the original cookie dough shape is [[48]] [[cm | sq. cm]].
 The perimeter of the first dough rectangle is [[38]] [[cm | sq. cm]].
 The perimeter of the second dough rectangle is [[34]] [[cm | sq. cm]].
 
-So, when we moved around parts of the dough, the area [[stayed the same | changed]], but the perimeter [[changed | also stayed the same]]. One final food for thought question: what shape with 70 square cm of cookie dough would have the smallest perimeter? What shape with 70 square cm of cookie dough would have the largest perimeter? This question will be explored in future Mathigon chapters, but chew on it for now!
+So, when we moved around parts of the dough, the area [[stayed the same | changed]], but the perimeter [[changed | also stayed the same]]. One final food for thought question: what shape with 70 square cm of cookie dough would have the smallest perimeter? What shape with 70 square cm of cookie dough would have the largest perimeter? This question will be explored in future Madras chapters, but chew on it for now!
 
 Great work! Let’s now think about all the shapes we’ve been working with so far:
 
@@ -493,7 +493,7 @@ As you see, some shapes that meet the requirements to be a parallelogram also ha
     // [todo] DIAGRAM-05: Rectangle (page 16)
 {.todo} Coming Soon!
 
-has opposite sides [[parallel | perpendicular ]] and therefore is a [[parallelogram | triangle | sphere]], but we more often refer to it as a [[rectangle | trapezoid | pentagon]]. Another shape that is a parallelogram but we often call a different name is a [[square | hexagon | circle]]. You can learn more about the different names and relationships of all sorts of quadrilaterals in a different Mathigon chapter.
+has opposite sides [[parallel | perpendicular ]] and therefore is a [[parallelogram | triangle | sphere]], but we more often refer to it as a [[rectangle | trapezoid | pentagon]]. Another shape that is a parallelogram but we often call a different name is a [[square | hexagon | circle]]. You can learn more about the different names and relationships of all sorts of quadrilaterals in a different Madras chapter.
 
 We are close to establishing a formula for finding the formula of any parallelogram. Our last step is to explore the heights of real-world situations involving parallelograms. Look at the picture again of the Dockland Office Building in Hamburg, Germany.
 
@@ -1131,7 +1131,7 @@ Below are 7 polygons. Move and rotate the polygons to completely fill in the squ
 
 ::: .reveal(when="tangram-complete")
 
-The set of these 7 polygons is called a tangram. The tangram is an ancient Chinese puzzle invented over 1,000 years ago during the Song Dynasty. In Chinese, the puzzle is called 七巧板. Pronounced “Chi-Chiao Pan,” this translates to “the seven intriguing pieces.” The goal of the puzzle is to use all 7 pieces to form any number of images. Below are just some of the shapes you can try to make at the [Tangram](https://mathigon.org/tangram) activity on Mathigon!
+The set of these 7 polygons is called a tangram. The tangram is an ancient Chinese puzzle invented over 1,000 years ago during the Song Dynasty. In Chinese, the puzzle is called 七巧板. Pronounced “Chi-Chiao Pan,” this translates to “the seven intriguing pieces.” The goal of the puzzle is to use all 7 pieces to form any number of images. Below are just some of the shapes you can try to make at the [Tangram](https://mathigon.org/tangram) activity on Madras!
 
     // [TODO]: Image
 {.todo} Coming Soon!
@@ -1558,7 +1558,7 @@ In 1706, William Jones, a Welsh mathematician, simplified things by using a lett
 
 :::
 
-So what is the exact value of `pi`? Is it 3.14? 3.141? It turns out that mathematicians have discovered patterns and rules that can determine each next digit of `pi`. Today, mathematicians have programs on supercomputers to determine digits of `pi`. Mathematicians currently know over 30 trillion digits after the decimal point! The first 5 digits of `pi` after the decimal are 3.14159. You’ll learn more about the decimal expansion of `pi` in future mathigon chapters. The most commonly used fractional approximation of `pi` is `22/7` or `3 1/7` since this equals 3.142857.
+So what is the exact value of `pi`? Is it 3.14? 3.141? It turns out that mathematicians have discovered patterns and rules that can determine each next digit of `pi`. Today, mathematicians have programs on supercomputers to determine digits of `pi`. Mathematicians currently know over 30 trillion digits after the decimal point! The first 5 digits of `pi` after the decimal are 3.14159. You’ll learn more about the decimal expansion of `pi` in future Madras chapters. The most commonly used fractional approximation of `pi` is `22/7` or `3 1/7` since this equals 3.142857.
 
 Let’s not let the ever-expanding decimal expansion of `pi` detract from the simplicity here. The number `pi` represents how many diameters of a circle are needed to equal the circumference.
 

@@ -800,7 +800,7 @@ Divisible by 6?
 [[ ✅  | × ]]
 [[ × | ✅  ]]
 
-{.fixme} 2 × 3 = 6 and this test happens to work for 6, but not for any number that is the product of two other numbers. For example, 2 × 10 = 20, but 30 is divisible by 2 and 10, but not by 20. We’ll learn more about when tests like this do and don’t work in future Mathigon chapters.
+{.fixme} 2 × 3 = 6 and this test happens to work for 6, but not for any number that is the product of two other numbers. For example, 2 × 10 = 20, but 30 is divisible by 2 and 10, but not by 20. We’ll learn more about when tests like this do and don’t work in future Madras chapters.
 
 ---
 
@@ -943,7 +943,7 @@ Is NOT divisible by
 
 {.fixme} Again, the symbol stays there for 2 seconds and then it fades away and is replaced again by the chart. The following text appears.
 
-{.fixme} While it may seem like Mathigon is reading your mind, let’s see if we can understand this trick. Enter 4 different starting numbers in the table below. Upon entering the starting number the rest of the table if filled in automatically:
+{.fixme} While it may seem like Madras is reading your mind, let’s see if we can understand this trick. Enter 4 different starting numbers in the table below. Upon entering the starting number the rest of the table if filled in automatically:
 
 {.fixme} The final answer always seems to be divisible by [[9]]! Upon correct answer, add two more blank rows to the table. Check this pattern by entering in two more numbers into the table. Upon entering those numbers: The patterns hold true - the final answer is always divisible by 9. In fact, you may notice that the final answer is always 9 times the number in the tens place of the starting number.
 
@@ -1961,7 +1961,7 @@ In the chapter on Prime Numbers, we learned that the list of prime numbers is in
 Except for 2 and 3, prime numbers can’t be next to each other. That’s because one of two adjacent numbers is always [[even | ?? | ??]] and therefore divisible by 2. However,
 You may have noticed that oftentimes prime numbers are two away from each other - there is only 1 number in between them:
 
-Below is an image from the current Mathigon chapter. Change the graphic to include more twin primes and have some blanks for students to fill in:
+Below is an image from the current Madras chapter. Change the graphic to include more twin primes and have some blanks for students to fill in:
 
 3 - [[5]], 11-13, [[41]]-43, 101-103, 419-[[421]], [[1151]]-1153, 2027-2020, 44531-[[44533]], 108,377-108,379, 1,523,651-[[1,523,653]].
 

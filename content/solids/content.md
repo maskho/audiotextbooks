@@ -7,7 +7,7 @@
 > color: "#4E53D0"
 > level: Foundations
 
-    // General observations:- I find the mix of historical storylines and interactives captivating.- Consider adding a few more 'check for understanding' kinds of questions to break up text and transition from one section/sub-section to another.- Spatial reasoning can take a lot of work for some students to pick up. consider adding tutor prompts that are unique to the topic your discussing.- Think about standardizing how you want to write 2D and 3D +philipp@mathigon.org would be a big help here.- The transitions and storyline references dwindle toward the end of the chapter. I'm excited to see this one in action!
+    // General observations:- I find the mix of historical storylines and interactives captivating.- Consider adding a few more 'check for understanding' kinds of questions to break up text and transition from one section/sub-section to another.- Spatial reasoning can take a lot of work for some students to pick up. consider adding tutor prompts that are unique to the topic your discussing.- Think about standardizing how you want to write 2D and 3D +sak@madras.id would be a big help here.- The transitions and storyline references dwindle toward the end of the chapter. I'm excited to see this one in action!
 
     // Glossary entry - Dimension: Dimensions in mathematics are the measure of the size or distance of an object.
 

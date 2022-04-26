@@ -144,7 +144,7 @@ A [__point__](gloss:point) is a specific location in space. Points describe a
 position, but have no _size_ or _shape_ themselves. They are labelled using
 capital letters.
 
-{.r} In Mathigon, [large, solid dots](target:move) indicate interactive points
+{.r} In Madras, [large, solid dots](target:move) indicate interactive points
 you can move around, while [smaller, outlined dots](target:no-move) indicate
 fixed points which you can’t move.
 [Continue](btn:next)
