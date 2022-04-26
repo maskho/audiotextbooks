@@ -12,15 +12,11 @@ search:
 footer:
   rows:
     - links:
-        - title: Follow us on Instagram
+        - title: Our Instagram
           url: https://www.instagram.com/madras.id/
-        - title: Give us your suggestion
+        - title: Feedback form
           url: https://forms.gle/maUSfWPWCmgoz5RM9
   copyright: © Madras, 2022
-
-social:
-  facebook: madras.id
-  instagram: madras.id
 
 courses:
   showLocked: true
@@ -39,7 +35,7 @@ accounts:
   # Required privacy information
   privacyPolicy: https://madras.id/policies
   termsOfUse: https://madras.id/terms
-  address: Jalan Asem Kranji, Depok, Sleman, D.I. Yogyakarta
+  address: Innovative Academy Hub, Jl. Asem Kranji Sekip, Senolowo, Sinduadi, Mlati, Kab. Sleman, DIY 55284
 
   # Support email that users can contact
   supportEmail: halo@madras.id
