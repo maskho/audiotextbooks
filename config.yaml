@@ -19,8 +19,8 @@ footer:
   copyright: © Madras, 2022
 
 social:
-  facebook: {}
-  twitter: {}
+  facebook: madras.id
+  instagram: madras.id
 
 courses:
   showLocked: true
@@ -48,7 +48,7 @@ accounts:
   cronNotificationsEmail: halo@madras.id
 
   # Sendgrid API key. Should use place holder
-  sendgridKey: 12345 //
+  sendgridKey: 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
 
   # MongoDB URL (optional). Should use place holder
   mongodb: mongodb+srv://madras:YJXbvfFRzIk5Vpfk@clustermadras0.z11yf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

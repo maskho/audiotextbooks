@@ -48,3 +48,4 @@ _*.yaml
 
 # Private Keys
 google-service-account.json
+sendgrid.env
