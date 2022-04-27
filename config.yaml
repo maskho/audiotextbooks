@@ -1,6 +1,6 @@
 siteName: Madras
 description: A magical textbook
-domain: localhost:5000
+domain: madras.id
 
 privacyURL: /policies
 banner: (c) Madras
