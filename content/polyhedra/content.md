@@ -1053,11 +1053,11 @@ new shapes from the sidebar onto the canvas. Which shapes tessellate well? Are
 there any shapes that don’t tessellate at all? Try to create interesting
 patterns!
 
-    figure: .tessellation
+    figure: .tessellation.polypad
       x-polypad
       .menu
         for s in ['equ-triangle', 'square', 'reg-pentagon', 'reg-hexagon', 'reg-octagon']
-          .add(data-shape=s)
+          .add(tile="polygon" props=({shape: s}))
       .btn-row: button.icon-btn(title="Download image"): x-icon(name="download")
       svg.overlay: g.tiles.active
     x-gesture(target=".tessellation .menu" slide="-300, 140")
@@ -1308,24 +1308,11 @@ Two years later, in 2017, _Michaël Rao_ published a proof that there are no oth
 except the 15 that had already been found. Can you make a tessellation using all of them?
 
     figure
-      .tessellation
+      .tessellation.polypad
         x-polypad
         .menu
-          .add(data-options="1")
-          .add(data-options="2")
-          .add(data-options="3")
-          .add(data-options="4")
-          .add(data-options="5")
-          .add(data-options="6")
-          .add(data-options="7")
-          .add(data-options="8")
-          .add(data-options="9")
-          .add(data-options="10")
-          .add(data-options="11")
-          .add(data-options="12")
-          .add(data-options="13")
-          .add(data-options="14")
-          .add(data-options="15")
+          for i in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+            .add(tile="polygon" props=({shape: `pentagon-${i}`}))
         .btn-row
           button.icon-btn(title="Flip selection"): x-icon(name="flip")
           button.icon-btn(title="Download image"): x-icon(name="download")

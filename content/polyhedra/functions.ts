@@ -1,16 +1,16 @@
 // =============================================================================
 // Polygons and Polyhedra
-// (c) Mathigon
+// (c) Madras
 // =============================================================================
 
 
 import {total} from '@mathigon/core';
 import {clamp, lerp, toWord} from '@mathigon/fermat';
 import {Angle, intersections, isLineLike, Point, Polygon, Rectangle, Segment} from '@mathigon/euclid';
-import {Browser, slide} from '@mathigon/boost';
+import {$body, Browser, slide} from '@mathigon/boost';
 import {Slider, Step} from '@mathigon/studio';
 
-import {Geopad, GeoPath, Path, PolygonTile, Polypad} from '../shared/types';
+import {Geopad, GeoPath, Path, PolygonTile} from '../shared/types';
 import {Solid} from '../shared/components/webgl/solid';
 import {Graphics3D} from '../shared/components/webgl/webgl';
 import {Anibutton} from './components/anibutton';
@@ -194,21 +194,21 @@ export function quadrilateralsArea($step: Step) {
 // -----------------------------------------------------------------------------
 
 export function tessellationDrawing($step: Step) {
-  const $polypad = $step.$('x-polypad') as Polypad;
+  const $polypad = $step.$('x-polypad') as any;
   const $overlayTiles = $step.$('.overlay')!;
-  ($polypad.options as any).noPinchPan = true;
+  $polypad.options.noPinchPan = true;
 
   // TODO Save and restore progress
   let polygons = 0;
 
   for (const $a of $step.$$('.tessellation .add')) {
-    $polypad.bindSource($a, 'polygon', $a.data.shape!, $overlayTiles);
+    $polypad.bindSource($a, $overlayTiles);
     $a.$('svg')!.setAttr('viewBox', '0 0 80 80');
   }
 
   const $download = $step.$('.tessellation .icon-btn')!;
   $download.on('click', () => $polypad.$svg.downloadImage('tessellation.png'));
-  Browser.onKey('backspace', () => $polypad.selection.delete());
+  $body.onKey('Backspace', () => $polypad.selection.delete());
 
   $polypad.on('move-selection rotate-selection add-tile', () => {
     const tiles = Array.from($polypad.tiles.values()) as PolygonTile[];
@@ -234,22 +234,23 @@ export function tessellationDrawing($step: Step) {
 }
 
 export function pentagons($step: Step) {
-  const $polypad = $step.$('x-polypad') as Polypad;
-  ($polypad.options as any).noPinchPan = true;
+  const $polypad = $step.$('x-polypad') as any;
+  $polypad.options.noPinchPan = true;
   const $overlayTiles = $step.$('.overlay')!;
 
   for (const $a of $step.$$('.tessellation .add')) {
-    $polypad.bindSource($a, 'pentagon', $a.data.options!, $overlayTiles);
+    $polypad.bindSource($a, $overlayTiles);
     $a.$('svg')!.setAttr('viewBox', '0 0 80 80');
   }
 
   const [$flip, $download] = $step.$$('.tessellation .icon-btn');
   $download.on('click', () => $polypad.$svg.downloadImage('tessellation.png'));
   $flip.on('click', () => {
-    for (const t of $polypad.selection.tiles) t.flip();
+    const c = $polypad.selection.center;
+    for (const t of $polypad.selection.tiles) t.flip(c);
   });
 
-  Browser.onKey('backspace', () => $polypad.selection.delete());
+  $body.onKey('Backspace', () => $polypad.selection.delete());
 
   let polygons = 0;
   $polypad.on('add-tile', () => {

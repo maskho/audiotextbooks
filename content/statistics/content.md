@@ -226,7 +226,7 @@ TODO
 > id: guess-1
 
 In this chapter, we’ll try an actual statistical experiment, where you can participate together with
-as all other Mathigon users.
+as all other Madras users.
 
 When you click the button below, we'll show you a simple question, and you have 10 seconds to
 submit an answer. Do not try to calculate the answer – just guess using your gut feeling:
@@ -330,7 +330,7 @@ AVERAGE USER ANSWER: _____
 
 ACTUAL ANSWER: 360,000 kg
 
-Not bad, the Mathigon users guessed within X% of the true answer!
+Not bad, the Madras users guessed within X% of the true answer!
 
 BONUS CASE STUDY: The Challenger Accident
 

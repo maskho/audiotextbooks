@@ -606,7 +606,7 @@ This is the identity matrix for three dimensions
 ---
 > id: mathigon-matrix
 
-Let's mess around with the Mathigon Logo!
+Let's mess around with a logo!
 
     include mixins
     svg(width=220 height=220)

@@ -1,6 +1,6 @@
 // ============================================================================
 // Hamming Code Component
-// (c) Mathigon
+// (c) Madras
 // ============================================================================
 
 import {$N, CustomElementView, ElementView, register, SVGParentView} from '@mathigon/boost';
