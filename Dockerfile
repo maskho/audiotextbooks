@@ -1,5 +1,5 @@
 # Install dependencies only when needed
-FROM node:16-alpine AS deps
+FROM node:16.18.1 AS deps
 
 WORKDIR /app
 # COPY package.json yarn.lock ./
@@ -10,8 +10,8 @@ COPY package.json package-lock.json /app
 COPY ./node_modules/@mathigon/studio ./node_modules/@mathigon/studio
 # RUN npm ci --only=production && npm cache clean --force
 
-RUN npx patch-package @mathigon/studio
-RUN npm install 
+RUN npx patch-package@6.4.7 @mathigon/studio
+RUN npm install
 
 # Rebuild the source code only when needed
 
