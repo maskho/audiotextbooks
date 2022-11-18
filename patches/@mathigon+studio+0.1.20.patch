@@ -1,11 +1,9 @@
 diff --git a/node_modules/@mathigon/studio/.DS_Store b/node_modules/@mathigon/studio/.DS_Store
 new file mode 100644
-index 0000000..c20066f
-Binary files /dev/null and b/node_modules/@mathigon/studio/.DS_Store differ
+index 0000000..e69de29
 diff --git a/node_modules/@mathigon/studio/frontend/.DS_Store b/node_modules/@mathigon/studio/frontend/.DS_Store
 new file mode 100644
-index 0000000..9ba9b3b
-Binary files /dev/null and b/node_modules/@mathigon/studio/frontend/.DS_Store differ
+index 0000000..e69de29
 diff --git a/node_modules/@mathigon/studio/frontend/assets/favicon.ico b/node_modules/@mathigon/studio/frontend/assets/favicon.ico
 index 20de4ec..adcd195 100644
 Binary files a/node_modules/@mathigon/studio/frontend/assets/favicon.ico and b/node_modules/@mathigon/studio/frontend/assets/favicon.ico differ
@@ -251,10 +249,10 @@ index 6cc7171..ab17cf3 100755
                a.btn.twitter(href=`https://twitter.com/${config.social.twitter.handle}` title="Twitter" target="_blank" rel="noopener")
                  x-icon(name="twitter" size=32)
 diff --git a/node_modules/@mathigon/studio/server/templates/home.pug b/node_modules/@mathigon/studio/server/templates/home.pug
-index 74feda3..3d658a8 100644
+index 74feda3..81637d4 100644
 --- a/node_modules/@mathigon/studio/server/templates/home.pug
 +++ b/node_modules/@mathigon/studio/server/templates/home.pug
-@@ -5,7 +5,8 @@ block vars
+@@ -5,7 +5,16 @@ block vars
  
  block main
    .container.narrow
